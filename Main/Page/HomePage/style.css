@@ -1,0 +1,139 @@
+
+}
+:root {
+    --base-h: 206;
+    --base-s: 58%;
+    --base-l: 51%;
+    --accent-h: 0;
+    --accent-s: 0%;
+    --accent-l: 0%;
+}
+:root {
+    --heading-font: "Plus Jakarta Sans", sans-serif;
+    --body-font: "Open Sans", sans-serif;
+    --h1: clamp(2.1rem, 4vw + 1rem, 3.052rem);
+    --h2: clamp(1.69775rem, 3vw + 1rem, 2.441rem);
+    --h3: clamp(1.367rem, 2.7vw + 1rem, 1.953rem);
+    --h4: clamp(1.2504rem, 2vw + 1rem, 1.563rem);
+    --h5: 1.25rem;
+    --h6: 1rem;
+    --base-h: 24;
+    --base-s: 97%;
+    --base-l: 54%;
+    --base: var(--base-h) var(--base-s) var(--base-l);
+    --base-light: calc(var(--base-h) - 3) calc(var(--base-s) - 5%) calc(var(--base-l) + 5%);
+    --base-dark: calc(var(--base-h) - 3) calc(var(--base-s) - 5%) calc(var(--base-l) - 16%);
+    --accent-h: 227;
+    --accent-s: 60%;
+    --accent-l: 40%;
+    --accent: var(--accent-h) var(--accent-s) var(--accent-l);
+    --accent-light: calc(var(--accent-h) - 3) calc(var(--accent-s) - 5%) calc(var(--accent-l) + 5%);
+    --accent-dark: var(--accent-h) var(--accent-s) calc(var(--accent-l) - 8%);
+    --light-h: 240;
+    --light-s: 100%;
+    --light-l: 98%;
+    --light: var(--light-h) var(--light-s) var(--light-l);
+    --light-dark: var(--light-h) var(--light-s) calc(var(--light-l) - 2%);
+    --dark-h: 237;
+    --dark-s: 57%;
+    --dark-l: 15%;
+    --dark: var(--dark-h) var(--dark-s) var(--dark-l);
+    --dark-100: var(--dark-h) calc(var(--dark-s) - 7%) calc(var(--dark-l) + 15%);
+    --dark-200: var(--dark-h) calc(var(--dark-s) - 7%) calc(var(--dark-l) + 10%);
+    --dark-300: var(--dark-h) calc(var(--dark-s) - 7%) calc(var(--dark-l) + 8%);
+    --dark-400: var(--dark-h) calc(var(--dark-s) - 7%) calc(var(--dark-l) + 5%);
+    --dark-500: var(--dark-h) var(--dark-s) calc(var(--dark-l) - 2%);
+    --dark-600: var(--dark-h) var(--dark-s) calc(var(--dark-l) - 4%);
+    --dark-700: var(--dark-h) var(--dark-s) calc(var(--dark-l) - 6%);
+    --dark-800: var(--dark-h) var(--dark-s) calc(var(--dark-l) - 8%);
+    --black-h: 0;
+    --black-s: 0%;
+    --black-l: 0%;
+    --black: var(--black-h) var(--black-s) var(--black-l);
+    --white: 0 0% 100%;
+    --primary: 204 88% 44%;
+    --secondary: 208 23% 55%;
+    --success: 161 74% 48%;
+    --danger: 5 76% 55%;
+    --warning: 40 99% 57%;
+    --info: 190 76% 40%;
+    --text-h: 207;
+    --text-s: 22%;
+Show All Properties (7 more)
+}
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212529;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-primary-rgb: 13,110,253;
+    --bs-secondary-rgb: 108,117,125;
+    --bs-success-rgb: 25,135,84;
+    --bs-info-rgb: 13,202,240;
+    --bs-warning-rgb: 255,193,7;
+    --bs-danger-rgb: 220,53,69;
+    --bs-light-rgb: 248,249,250;
+    --bs-dark-rgb: 33,37,41;
+    --bs-white-rgb: 255,255,255;
+    --bs-black-rgb: 0,0,0;
+    --bs-body-color-rgb: 33,37,41;
+    --bs-body-bg-rgb: 255,255,255;
+    --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    --bs-body-font-family: var(--bs-font-sans-serif);
+    --bs-body-font-size: 1rem;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.5;
+    --bs-body-color: #212529;
+Show All Properties (1 more)
+}
+html {
+    font-size: 100%;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+html[Attributes Style] {
+    -webkit-locale: "en";
+}
+user agent stylesheet
+:root {
+    view-transition-name: root;
+}
+user agent stylesheet
+html {
+    display: block;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
